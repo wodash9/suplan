@@ -1,0 +1,301 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "id": "vite_config_ts",
+      "community": 2,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "id": "src_main_tsx",
+      "community": 1,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "Toggle()",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L28",
+      "id": "main_toggle",
+      "community": 1,
+      "norm_label": "toggle()"
+    },
+    {
+      "label": "toggleGoal()",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L40",
+      "id": "main_togglegoal",
+      "community": 1,
+      "norm_label": "togglegoal()"
+    },
+    {
+      "label": "setMoment()",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L48",
+      "id": "main_setmoment",
+      "community": 1,
+      "norm_label": "setmoment()"
+    },
+    {
+      "label": "usePack()",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L52",
+      "id": "main_usepack",
+      "community": 1,
+      "norm_label": "usepack()"
+    },
+    {
+      "label": "recommendation.ts",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L1",
+      "id": "src_domain_recommendation_ts",
+      "community": 0,
+      "norm_label": "recommendation.ts"
+    },
+    {
+      "label": "uniqueById()",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L4",
+      "id": "recommendation_uniquebyid",
+      "community": 0,
+      "norm_label": "uniquebyid()"
+    },
+    {
+      "label": "evaluateSafety()",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L6",
+      "id": "recommendation_evaluatesafety",
+      "community": 0,
+      "norm_label": "evaluatesafety()"
+    },
+    {
+      "label": "candidateSupplements()",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L32",
+      "id": "recommendation_candidatesupplements",
+      "community": 0,
+      "norm_label": "candidatesupplements()"
+    },
+    {
+      "label": "splitRoutine()",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L44",
+      "id": "recommendation_splitroutine",
+      "community": 0,
+      "norm_label": "splitroutine()"
+    },
+    {
+      "label": "generateRecommendation()",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L52",
+      "id": "recommendation_generaterecommendation",
+      "community": 0,
+      "norm_label": "generaterecommendation()"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "src/domain/types.ts",
+      "source_location": "L1",
+      "id": "src_domain_types_ts",
+      "community": 3,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "recommendation.test.ts",
+      "file_type": "code",
+      "source_file": "src/domain/recommendation.test.ts",
+      "source_location": "L1",
+      "id": "src_domain_recommendation_test_ts",
+      "community": 4,
+      "norm_label": "recommendation.test.ts"
+    },
+    {
+      "label": "catalog.ts",
+      "file_type": "code",
+      "source_file": "src/domain/catalog.ts",
+      "source_location": "L1",
+      "id": "src_domain_catalog_ts",
+      "community": 5,
+      "norm_label": "catalog.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "src_main_tsx",
+      "_tgt": "main_toggle",
+      "source": "src_main_tsx",
+      "target": "main_toggle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "src_main_tsx",
+      "_tgt": "main_togglegoal",
+      "source": "src_main_tsx",
+      "target": "main_togglegoal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "src_main_tsx",
+      "_tgt": "main_setmoment",
+      "source": "src_main_tsx",
+      "target": "main_setmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "src_main_tsx",
+      "_tgt": "main_usepack",
+      "source": "src_main_tsx",
+      "target": "main_usepack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_domain_recommendation_ts",
+      "_tgt": "recommendation_uniquebyid",
+      "source": "src_domain_recommendation_ts",
+      "target": "recommendation_uniquebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "src_domain_recommendation_ts",
+      "_tgt": "recommendation_evaluatesafety",
+      "source": "src_domain_recommendation_ts",
+      "target": "recommendation_evaluatesafety",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "src_domain_recommendation_ts",
+      "_tgt": "recommendation_candidatesupplements",
+      "source": "src_domain_recommendation_ts",
+      "target": "recommendation_candidatesupplements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_src": "src_domain_recommendation_ts",
+      "_tgt": "recommendation_splitroutine",
+      "source": "src_domain_recommendation_ts",
+      "target": "recommendation_splitroutine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "src_domain_recommendation_ts",
+      "_tgt": "recommendation_generaterecommendation",
+      "source": "src_domain_recommendation_ts",
+      "target": "recommendation_generaterecommendation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "recommendation_candidatesupplements",
+      "_tgt": "recommendation_uniquebyid",
+      "source": "recommendation_uniquebyid",
+      "target": "recommendation_candidatesupplements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "recommendation_generaterecommendation",
+      "_tgt": "recommendation_evaluatesafety",
+      "source": "recommendation_evaluatesafety",
+      "target": "recommendation_generaterecommendation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "recommendation_generaterecommendation",
+      "_tgt": "recommendation_candidatesupplements",
+      "source": "recommendation_candidatesupplements",
+      "target": "recommendation_generaterecommendation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/recommendation.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "recommendation_generaterecommendation",
+      "_tgt": "recommendation_splitroutine",
+      "source": "recommendation_splitroutine",
+      "target": "recommendation_generaterecommendation",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
